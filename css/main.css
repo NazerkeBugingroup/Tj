@@ -69,7 +69,12 @@ a {
 
 .main-page > div {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s; }
+
+.main-page > div:hover {
+  opacity: 0.9; }
 
 .site-1 {
   background: url("../img/bg/bg1.png") no-repeat center/cover;
